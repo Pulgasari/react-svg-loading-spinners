@@ -4,10 +4,9 @@ import { stringDurationToFloat } from "../util";
 const FACTOR = 0.25 / 0.001;
 
 export default function Wifi({
-  width = 24,
-  height = 24,
+  size = 24,
   dur = "0.25s",
-  color,
+  color = 'currenColor',
 }: SVGProps<SVGElement>): JSX.Element {
   return (
     <svg

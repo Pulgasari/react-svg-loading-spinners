@@ -1,9 +1,8 @@
 import React, { SVGProps } from "react";
 
 export default function BarsFade({
-  width = 24,
-  height = 24,
-  color,
+  size = 24,
+  color = 'currenColor',
   dur = "0.75s",
 }: SVGProps<SVGElement>): JSX.Element {
   return (

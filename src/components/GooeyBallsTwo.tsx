@@ -2,10 +2,9 @@ import React, { SVGProps } from "react";
 import { stringDurationToFloat } from "../util";
 
 export default function GooeyBallsTwo({
-  width = 24,
-  height = 24,
+  size = 24,
   dur = "2s",
-  color,
+  color = 'currenColor',
 }: SVGProps<SVGElement>): JSX.Element {
   return (
     <svg

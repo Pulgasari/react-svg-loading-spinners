@@ -2,11 +2,11 @@
 
 > A collection of [SVG Spinners](https://github.com/n3r4zzurr0/svg-spinners) components for React.
 
-It is a frok from ...
+It is a frok of ... by ... .
 
-But with some changes. By default the color is set to 'currentColor' so the icons would simply take the same color as the text of the parent div.
+But I did some changes. By default the `color` property is set to `currentColor`, so the icons would simply take the same color as the text of the parent `<div>` if there is not `color` property set.
 
-Addition there is only a single `size` attribute instead of `width` and `height`
+Addition there is only a single `size` property instead of `width` and `height`.
 
 ## Installation
 
@@ -30,11 +30,11 @@ export default function App() {
 
 ### Options
 
-| Property | Options          | Default      | Description                                   |
-| -------- | ---------------- | ------------ | --------------------------------------------- |
-| size     | _string, number_ | 24           | Specifies the width and height of the spinner |
-| color    | _string_         | currentColor | Color of the spinner                          |
-| dur      | _string, number_ | 0.6s         | Duration of spinner animation                 |
+| Property | Options          | Default      | Description                          |
+| -------- | ---------------- | ------------ | ------------------------------------ |
+| size     | _string, number_ | 24           | Sets width and height of the spinner |
+| color    | _string_         | currentColor | Color of the spinner                 |
+| dur      | _string, number_ |              | Duration of spinner animation        |
 
 ## Preview
 

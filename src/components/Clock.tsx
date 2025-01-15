@@ -2,10 +2,9 @@ import React, { SVGProps } from "react";
 import { stringDurationToFloat } from "../util";
 
 export default function Clock({
-  width = 24,
-  height = 24,
+  size = 24,
   dur = "9s",
-  color,
+  color = 'currenColor',
 }: SVGProps<SVGElement>): JSX.Element {
   return (
     <svg

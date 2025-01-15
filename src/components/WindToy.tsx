@@ -1,10 +1,9 @@
 import React, { SVGProps } from "react";
 
 export default function WindToy({
-  width = 24,
-  height = 24,
+  size = 24,
   dur = "1.5s",
-  color,
+  color = 'currenColor',
 }: SVGProps<SVGElement>): JSX.Element {
   return (
     <svg

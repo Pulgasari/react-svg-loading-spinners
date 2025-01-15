@@ -1,10 +1,9 @@
 import React, { SVGProps } from "react";
 
 export default function ThreeDotsRotate({
-  width = 24,
-  height = 24,
+  size = 24,
   dur = "1s",
-  color,
+  color = 'currenColor',
 }: SVGProps<SVGElement>): JSX.Element {
   return (
     <svg

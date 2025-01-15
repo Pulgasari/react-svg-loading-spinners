@@ -1,10 +1,9 @@
 import React, { SVGProps } from "react";
 
 export default function BlocksShuffleThree({
-  width = 24,
-  height = 24,
+  size = 24,
   dur = "0.2s",
-  color,
+  color = 'currenColor',
 }: SVGProps<SVGElement>): JSX.Element {
   return (
     <svg
