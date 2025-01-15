@@ -4,9 +4,9 @@
 
 It is a fork of ... by ... .
 
-But I did some changes. By default the `color` property is set to `currentColor`, so the icons would simply take the same color as the text of the parent `<div>` if there is not `color` property set.
+But I did some changes. By default the `color` property is set to `currentColor`, so the icons would simply take the same color as the text of the parent element if there is not `color` property set.
 
-Addition there is only a single `size` property instead of `width` and `height`.
+Also there is now only a single `size` property instead of `width` and `height`.
 
 ## via NPM
 
