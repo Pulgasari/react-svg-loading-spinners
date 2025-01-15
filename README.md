@@ -2,7 +2,7 @@
 
 > A collection of [SVG Spinners](https://github.com/n3r4zzurr0/svg-spinners) components for React.
 
-It is a frok of ... by ... .
+It is a fork of ... by ... .
 
 But I did some changes. By default the `color` property is set to `currentColor`, so the icons would simply take the same color as the text of the parent `<div>` if there is not `color` property set.
 
