@@ -43,12 +43,10 @@ import { Pulse } from "react-svg-loading-spinners";
       <a href="https://github.com/n3r4zzurr0/svg-spinners/blob/main/svg/12-dots-scale-rotate.svg"
         ><picture
           ><source
-            media="(prefers-color-scheme: light)"
-            srcset="
-              https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/preview/12-dots-scale-rotate-white-36.svg
+            media="(prefers-color-scheme: dark)"
+            srcset="https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/preview/12-dots-scale-rotate-white-36.svg
             " />
-          <img
-            src="https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/preview/12-dots-scale-rotate-black-36.svg" /></picture
+          <img src="https://raw.githubusercontent.com/n3r4zzurr0/svg-spinners/main/preview/12-dots-scale-rotate-black-36.svg" /></picture
       ></a>
     </td>
     <td>TwelveDotsScaleRotate</td>
