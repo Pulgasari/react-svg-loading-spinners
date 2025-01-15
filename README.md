@@ -14,7 +14,7 @@ Addition there is only a single `size` property instead of `width` and `height`.
 npm install react-svg-loading-spinners
 ```
 ```js
-import { Pulse } from "react-svg-spinners";
+import { Pulse } from "react-svg-loading-spinners";
 ```
 
 # via CDN (in Browser)
