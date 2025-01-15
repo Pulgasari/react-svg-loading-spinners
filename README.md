@@ -8,21 +8,18 @@ But I did some changes. By default the `color` property is set to `currentColor`
 
 Addition there is only a single `size` property instead of `width` and `height`.
 
-## Installation
+## via NPM
 
 ```sh
 npm install react-svg-loading-spinners
 ```
-
-## Usage
-
 ```js
 import { Pulse } from "react-svg-spinners";
-
-export default function App() {
-  return <Pulse />;
-}
 ```
+
+# via CDN (in Browser)
+
+... coming soon ...
 
 ## API
 
