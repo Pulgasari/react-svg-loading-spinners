@@ -23,8 +23,6 @@ import { Pulse } from "react-svg-loading-spinners";
 
 ## API
 
-### `<SpinnerComponent />`
-
 ### Options
 
 | Property | Options          | Default      | Description                          |
